@@ -1,4 +1,4 @@
-# 📦 Aplikasi Bergerak Koleksi Barang
+## 1️⃣ Aplikasi Bergerak Koleksi Barang
 Aplikasi Koleksi Barang adalah aplikasi mobile berbasis Flutter yang digunakan untuk mengelola dan mencatat koleksi barang pengguna secara digital.
 
 Aplikasi ini memungkinkan pengguna untuk menambahkan, melihat, mengedit, dan menghapus data barang yang tersimpan dalam database menggunakan Supabase sebagai backend.
@@ -7,7 +7,7 @@ Selain itu aplikasi juga menyediakan fitur autentikasi pengguna, pencarian data 
 
 Project ini dibuat sebagai Mini Project PAB 2 untuk mempraktikkan integrasi Flutter dengan Supabase serta penggunaan state management Provider.
 
-## 🎯 Project Objectives
+## 2️⃣ Project Objectives
 Tujuan utama dari pembuatan aplikasi ini adalah:
 - Mengimplementasikan CRUD Operation pada aplikasi Flutter
 - Mengintegrasikan Supabase sebagai backend service
@@ -16,12 +16,12 @@ Tujuan utama dari pembuatan aplikasi ini adalah:
 - Mengimplementasikan Dark Mode & Light Mode
 - Menerapkan Form Validation pada input pengguna
 
-## 🏗️ Project Architecture
+## 3️⃣ Project Architecture
 Struktur project dibuat modular agar mudah dikembangkan dan dipelihara.
 
 <img width="269" height="361" alt="Image" src="https://github.com/user-attachments/assets/aea1f720-83bb-4f51-b5d7-2a0cd749b5e0" />
 
-## 🗄️ Database Structure
+## 4️⃣ Database Structure
 
 Database pada aplikasi ini menggunakan **Supabase PostgreSQL** untuk menyimpan data koleksi barang pengguna.
 
@@ -32,7 +32,7 @@ Database pada aplikasi ini menggunakan **Supabase PostgreSQL** untuk menyimpan d
 | kategori | text | Menyimpan kategori barang seperti Elektronik, Fashion, atau lainnya. |
 | tahun | text | Menyimpan tahun barang dibuat atau tahun barang dimiliki. |
 
-## 🚀 Features
+## 5️⃣ Features
 Aplikasi menyediakan fitur autentikasi pengguna menggunakan Supabase Authentication.
 Fitur autentikasi yang tersedia:
 
@@ -101,7 +101,7 @@ Tampilan pada halaman login
 <img width="1919" height="911" alt="Image" src="https://github.com/user-attachments/assets/6a442599-580f-49fe-bb38-50fb2f8a7f7f" />
 
 
-## 📦 Item Management (CRUD)
+## 6️⃣ Item Management (CRUD)
 Pengguna dapat mengelola data barang melalui fitur CRUD.
 ### ➕ Create
 <img width="1919" height="925" alt="Image" src="https://github.com/user-attachments/assets/3d3e890c-cd22-4fd4-9b59-92faaaf7ead7" />
@@ -122,18 +122,18 @@ Data yang ditampilkan:
 <img width="1919" height="914" alt="Image" src="https://github.com/user-attachments/assets/95602dac-f87f-484b-9b43-0353e43f1928" />
 
 Memungkinkan pengguna untuk mengedit data barang yang sudah ada.
-## 🗑️ Delete
+## 7️⃣ Delete
 <img width="1919" height="910" alt="Image" src="https://github.com/user-attachments/assets/cbcd7e5d-3c2d-486c-8f8a-c12c55e4eb1e" />
 
 Menghapus data barang dengan konfirmasi sebelum penghapusan.
 
-## 🔍 Search Feature
+## 8️⃣ Search Feature
 <img width="1919" height="915" alt="Image" src="https://github.com/user-attachments/assets/8ff367b9-5bed-4f4e-a0a9-b497fc48f0f2" />
 
 Aplikasi menyediakan fitur pencarian barang secara real-time berdasarkan nama barang.
 Fitur ini memudahkan pengguna menemukan barang dengan cepat dari daftar koleksi.
 
-## ✔️ Form Validation
+## 9️⃣ Form Validation
 Validasi input pada form bertujuan untuk memastikan data yang dimasukkan benar.
 
 **1. Nama Barang	Minimal 3 karakter**
@@ -166,7 +166,7 @@ Validasi input pada form bertujuan untuk memastikan data yang dimasukkan benar.
 
 Jika validasi gagal maka akan muncul SnackBar error message.
 
-## 🌗 Theme Mode
+## 🔟 Theme Mode
 Aplikasi mendukung dua mode tampilan:
 1. Light Mode
 2. Dark Mode
@@ -197,7 +197,7 @@ Aplikasi mendukung dua mode tampilan:
 
 Tema aplikasi dikelola menggunakan Provider State Management sehingga perubahan tema dapat diterapkan secara global pada seluruh aplikasi.
 
-## ⚙️ Tech Stack
+## 1️⃣1️⃣ Tech Stack
 
 | **CATEGORY** | **TECHNOLOGY** | **DESCRIPTION** |
 |--------------|---------------|----------------|
@@ -211,7 +211,7 @@ Tema aplikasi dikelola menggunakan Provider State Management sehingga perubahan 
 | Version Control | Git | Digunakan untuk mengelola perubahan kode selama proses pengembangan. |
 | Repository Hosting | GitHub | Platform untuk menyimpan source code dan dokumentasi project. |
 
-## 🧩 Flutter Widgets Used
+## 1️⃣2️⃣ Flutter Widgets Used
 
 | **WIDGET** | **KETERANGAN** |
 |--------|------------|
@@ -246,3 +246,9 @@ Tema aplikasi dikelola menggunakan Provider State Management sehingga perubahan 
 | Navigator | Digunakan untuk berpindah antar halaman seperti dari login ke home atau dari home ke form input barang. |
 | MaterialPageRoute | Digunakan bersama Navigator untuk menentukan halaman tujuan navigasi. |
 | setState() | Digunakan untuk memperbarui tampilan UI ketika terjadi perubahan data seperti hasil pencarian, loading, atau perubahan input. |
+
+Nama   : Deny Candra Kasuma
+
+Nim    : 2409116024
+
+Kelas  : Sistem Informasi A'24
